@@ -7,9 +7,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
-    <title>brett johnston</title>
+    <title>Brett Johnston</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,10 +17,10 @@
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -31,39 +30,35 @@
     <![endif]-->
   </head>
 
-  <body data-spy="scroll" data-target="#navscroll" data-offset="100" id="top">
+  <body data-offset="100" id="top">
 
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-default navbar-fixed-top" id="navscroll">
+    <!-- Fixed navbar -->
+    <nav class="navbar transparent navbar-inverse navbar-fixed-top">
       <div class="container">
         <div>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation"><a href="#education"><span class="glyphicon glyphicon-education"></span></a></li>
-            <li role="presentation"><a href="#projects"><span class="glyphicon glyphicon-scissors"></span></a></li>
-            <li role="presentation"><a href="#contact"><span class="glyphicon glyphicon-phone"></span></a></li>
+            <li role="presentation"><a href="#education"><span class="glyphicon glyphicon-education white"></span></a></li>
+            <li role="presentation"><a href="#projects"><span class="glyphicon glyphicon-scissors white"></span></a></li>
+            <li role="presentation"><a href="#contact"><span class="glyphicon glyphicon-phone white"></span></a></li>
           </ul>
         </div>
         <h3><a href="#top">bwjoh</a></h3>
       </div>
     </nav> <!-- END NAVBAR -->
 
-    <div class="container">
-
-      <!-- JUMBOTRON -->
-      <div class="jumbotron">
-        <h1>brett johnston</h1>
+    <!-- HEADER -->
+    <div class="container name">
+        <h1>Brett Johnston</h1>
         <br>
         <p class="lead">Third year standing computer science student at the University of British Columbia.</p>
-      </div> <!-- /JUMBOTRON -->
+    </div> <!-- /HEADER -->
 
-      <!-- ROW INFORMATION - education/projects/contact -->
-      <div class="row information">
-
-      <!-- EDUCATION -->
-      <div id="education">
-
-        <h4 align="center">Education</h4>
-        <br>
+    <!-- EDUCATION -->
+    <div class="bg-grey">
+      <div class="container">
+        <div class="info" id="education">
+          <h4 align="center">Education</h4>
+          <br>
           <!-- EDUCATION TIMELINE -->
           <ul class="timeline">
               <li>
@@ -97,36 +92,40 @@
                     </div>
                   </div>
               </li>
-          </ul> <!-- END TIMELINE -->
-      </div> <!-- END EDUCATION -->
+          </ul>
+        </div>
+      </div>
+    </div> <!-- /EDUCATION -->
 
-      <!-- PROJECTS -->
-      <div id="projects">
-        <h4>Test 2</h4>
-        <p>blah blah blah.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        </p>
-      </div> <!-- END PROJECTS -->
+    <!-- PROJECTS -->
+    <div class="container">
+      <div class="info" id="projects">
+        <h4 align="center">Projects</h4>
+        <br>
+      </div>
+    </div> <!-- END CONTAINER -->
 
-      <!-- CONTACT -->
-      <div id="contact">
-        <h4>Test 3.</h4>
-        <p>blah blah blah.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        </p>
-      </div><!-- END CONTACT -->
+    <!-- CONTACT & FOOTER -->
+    <div class="bg-grey">
+      <div class="container">
+        <div class="info" id="contact">
+          <h4>Section 3.</h4>
+          <p>Description.</p>
+        </div> <!-- END CONTACT -->
 
-      </div><!-- END ROW INFORMATION -->
+        <footer class="footer">
+          <p>Brett Johnston 2016</p>
+        </footer>
 
-      <footer class="footer">
-        <p>Brett Johnston 2016</p>
-      </footer>
+      </div> <!-- END CONTAINER -->
+    </div> <!-- END GREY BACKGROUND -->
 
-    </div> <!-- /container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>

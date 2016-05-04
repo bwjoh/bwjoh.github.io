@@ -1,49 +1,6 @@
-/* Space out content a bit */
 body {
-  position: relative;
-  padding-bottom: 5px;
-  background-color: #383838;
-  color: #fff;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
-}
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.information,
-.footer {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-/* Fixed navbar */
-.navbar {
-  border-bottom: 1px solid #e5e5e5;
-  background-color: #000000;
-}
-
-.navbar.transparent.navbar-inverse .navbar-inner {
-   background: rgba(0,0,0,0.4);
-}
-
-.navbar h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-}
-.navbar h3 > a {
-  color: #fff;
-
-}
-
-/* Colour white */
-.white, .white a {
-  color: #fff;
-}
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+  min-height: 2000px;
+  padding-top: 70px;
 }
 
 /* Customize container */
@@ -56,24 +13,59 @@ body {
   margin: 30px 0;
 }
 
-/* Jumbotron section */
-.jumbotron {
-  text-align: center;
-  background-color:transparent !important;
-  margin-top: 150px;
+/* Education, projects sections */
+.info {
+  margin-top: 100px;
   margin-bottom: 150px;
+  padding-top: 50px;
 }
 
-.lead {
-  font-size: 18px !important;
+/* Name & description section */
+.name {
+  text-align: center;
+  margin-top: 225px;
+  margin-bottom: 225px;
 }
 
-/* Education, work, etc. content */
-.information {
-  margin: 40px 0;
+.navbar.transparent.navbar-inverse{
+  background: rgba(0,0,0,.9);
 }
-.information p + h5 {
-  margin-top: 28px;
+
+.navbar {
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #000000;
+}
+
+.navbar h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+.navbar h3 > a {
+  color: #fff;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Colour white */
+.white, .white a {
+  color: #fff;
+}
+
+/* Grey background */
+.bg-grey {
+    background-color: #efefef;
+}
+
+.information,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /* Timeline */
@@ -91,7 +83,7 @@ body {
   position: absolute;
   content: " ";
   width: 3px;
-  background-color: #eeeeee;
+  background-color: #000000;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -132,6 +124,7 @@ body {
   position: relative;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  background-color: #ffffff;
 }
 
 /* Arrows */
@@ -265,24 +258,5 @@ body {
     border-right-width: 14px;
     left: -14px;
     right: auto;
-  }
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .information,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
   }
 }
